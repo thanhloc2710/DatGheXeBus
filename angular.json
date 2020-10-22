@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BaiTapDatGhe"
+    }
+  },
+  "defaultProject": "BaiTapDatGhe",
+  "cli": {
+    "analytics": "e4284488-185f-4a62-923a-5d6bdc0cdc51"
+  }
 }

@@ -1,0 +1,13 @@
+<div class="container">
+    <h2 class="text-success text-center">
+        ĐẶT VÉ XE BUS HÃNG CYBERSOFT
+    </h2>
+    <div class="row">
+        <div class="col-6">
+            <app-list-chair-component (chairListEmitter)="takeChair($event)"></app-list-chair-component>
+        </div>
+        <div class="col-6">
+            <app-booked-chair-component [takeChair]="listChair" ></app-booked-chair-component>
+        </div>
+    </div>
+</div>

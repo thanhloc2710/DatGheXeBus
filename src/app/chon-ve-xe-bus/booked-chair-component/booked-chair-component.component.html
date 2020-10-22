@@ -1,0 +1,6 @@
+<div>
+    <h4 class="text-success text-center">Danh sách ghế đã đặt (0)</h4>
+    <div>
+        <p *ngFor="let chair of takeChair">Ghế {{ chair?.TenGhe }} ${{chair?.Gia}} <span (click)="delChair(chair)" class="text-danger">[Huỷ]</span></p>
+    </div>
+</div>

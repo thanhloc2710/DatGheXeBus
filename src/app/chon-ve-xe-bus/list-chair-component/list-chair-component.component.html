@@ -1,0 +1,8 @@
+<div>
+    <p class="text-center text-light bg-info p-2">
+        Tài xế
+    </p>
+    <div class="d-flex flex-wrap justify-content-between">
+        <button [ngClass]="{colorClick:chair.TrangThai}" class="btn btn-secondary text p-3 m-2" (click)="pushChair(chair)" *ngFor="let chair of listChair">{{chair.SoGhe}}</button>
+    </div>
+</div>
