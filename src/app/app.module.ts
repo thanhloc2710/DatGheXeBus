@@ -7,6 +7,7 @@ import { HomeComponentComponent } from './chon-ve-xe-bus/home-component/home-com
 import { ListChairComponentComponent } from './chon-ve-xe-bus/list-chair-component/list-chair-component.component';
 import { BookedChairComponentComponent } from './chon-ve-xe-bus/booked-chair-component/booked-chair-component.component';
 import { ChonVeXeBusComponent } from './chon-ve-xe-bus/chon-ve-xe-bus.component';
+import { WedBanHangComponent } from './wed-ban-hang/wed-ban-hang.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChonVeXeBusComponent } from './chon-ve-xe-bus/chon-ve-xe-bus.component'
     HomeComponentComponent,
     ListChairComponentComponent,
     BookedChairComponentComponent,
-    ChonVeXeBusComponent
+    ChonVeXeBusComponent,
+    WedBanHangComponent
   ],
   imports: [
     BrowserModule,

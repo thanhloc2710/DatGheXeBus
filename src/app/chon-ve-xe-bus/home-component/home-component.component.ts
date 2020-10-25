@@ -12,9 +12,14 @@ export class HomeComponentComponent implements OnInit {
 
   takeChair(prod) {
     prod.TrangThai = true;
+
+
     const index = this.listChair.findIndex((item:any) => item.SoGhe === prod.SoGhe);
     index === -1 && this.listChair.push(prod);
     console.log(this.listChair);
+    console.log(typeof prod );
+    console.log(typeof this.listChair.findIndex((item:any) => item.SoGhe === prod.SoGhe) );
+    
   }
 
   ngOnInit(): void {}
